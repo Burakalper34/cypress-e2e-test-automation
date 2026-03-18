@@ -20,3 +20,17 @@ This project demonstrates end-to-end test automation using Cypress.
 ## How to run
 npm install  
 npx cypress open
+
+## Test Design
+- Data-driven testing using fixtures
+- Reusable custom commands
+- Separation of test logic and test data
+
+## Key Focus
+- Stability
+- Maintainability
+- Reusability
+
+## Additional Scenarios
+- Add product to cart
+- Remove product from cart
