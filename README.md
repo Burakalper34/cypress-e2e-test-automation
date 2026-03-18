@@ -1,36 +1,31 @@
 # Cypress E2E Test Automation
 
-This project demonstrates end-to-end test automation using Cypress.
+This project contains end-to-end test automation scenarios developed with Cypress for the SauceDemo application.
 
-## Covered Scenarios
-- Positive login
-- Negative login
-- Add/remove product from cart
-- Logout flow
-
-## Design Approach
-- Reusable custom commands
-- Test data management with fixtures
-- End-to-end user workflow validation
+## Scope
+The following user flows are covered:
+- Valid login
+- Invalid login
+- Add product to cart
+- Remove product from cart
+- Logout
 
 ## Tech Stack
 - Cypress
 - JavaScript
+- Fixtures
+- Custom Commands
 
-## How to run
-npm install  
+## Project Structure
+- cypress/e2e/login.cy.js
+- cypress/e2e/cart.cy.js
+- cypress/e2e/logout.cy.js
+- cypress/fixtures/users.json
+- cypress/support/commands.js
+
+## Test Strategy
+This project focuses on business-critical end-to-end scenarios using a risk-based approach.
+
+## How to Run
+npm install
 npx cypress open
-
-## Test Design
-- Data-driven testing using fixtures
-- Reusable custom commands
-- Separation of test logic and test data
-
-## Key Focus
-- Stability
-- Maintainability
-- Reusability
-
-## Additional Scenarios
-- Add product to cart
-- Remove product from cart
